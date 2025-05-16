@@ -6,8 +6,6 @@ An AI-powered solution for guiding organizations through their Environmental, So
 
 The ESG Implementation Agent is a comprehensive multi-agent system that helps organizations implement and manage their ESG programs. It covers the entire ESG journey, from initial assessment to continuous improvement, using specialized AI agents to handle different aspects of the implementation process.
 
-![ESG Process](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/ESG_Criteria.png/1200px-ESG_Criteria.png)
-
 ## Features
 
 - **Multi-Agent Collaboration**: Four specialized agents work together to guide the ESG implementation process:
