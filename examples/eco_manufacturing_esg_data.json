@@ -1,0 +1,28 @@
+{
+  "name": "Eco Manufacturing Inc.",
+  "vision": null,
+  "stakeholders": [
+    {
+      "name": "Investors",
+      "category": "Investor",
+      "influence_level": 8,
+      "expectations": [
+        "ESG performance",
+        "Risk management"
+      ]
+    },
+    {
+      "name": "Customers",
+      "category": "Customer",
+      "influence_level": 7,
+      "expectations": [
+        "Sustainable products",
+        "Ethical practices"
+      ]
+    }
+  ],
+  "material_issues": [],
+  "metrics": [],
+  "actions": [],
+  "reports": []
+}

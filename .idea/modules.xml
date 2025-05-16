@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ESG.iml" filepath="$PROJECT_DIR$/ESG.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../LearnCrewAI/LearnCrewAI/LearnCrewAI.iml" filepath="$PROJECT_DIR$/../LearnCrewAI/LearnCrewAI/LearnCrewAI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../NLPDB/NLPDB/NLPDB.iml" filepath="$PROJECT_DIR$/../NLPDB/NLPDB/NLPDB.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../RAG/RAG/RAG.iml" filepath="$PROJECT_DIR$/../RAG/RAG/RAG.iml" />
+    </modules>
+  </component>
+</project>

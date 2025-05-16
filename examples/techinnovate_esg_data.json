@@ -1,0 +1,106 @@
+{
+  "name": "TechInnovate",
+  "vision": {
+    "vision_statement": "To lead technology innovation with environmental and social responsibility.",
+    "environmental_goals": [
+      "Carbon neutral by 2030",
+      "Zero waste operations"
+    ],
+    "social_goals": [
+      "Diverse workforce",
+      "Ethical supply chain"
+    ],
+    "governance_goals": [
+      "Transparent reporting",
+      "Ethical leadership"
+    ]
+  },
+  "stakeholders": [
+    {
+      "name": "Shareholders",
+      "category": "Investor",
+      "influence_level": 9,
+      "expectations": [
+        "Long-term growth",
+        "ESG risk management",
+        "Transparent disclosure"
+      ]
+    },
+    {
+      "name": "B2B Customers",
+      "category": "Customer",
+      "influence_level": 8,
+      "expectations": [
+        "Innovative solutions",
+        "Sustainable products",
+        "Ethical practices"
+      ]
+    },
+    {
+      "name": "Employees",
+      "category": "Internal",
+      "influence_level": 7,
+      "expectations": [
+        "Inclusive culture",
+        "Competitive compensation",
+        "Career growth"
+      ]
+    },
+    {
+      "name": "Regulators",
+      "category": "Regulator",
+      "influence_level": 8,
+      "expectations": [
+        "Compliance",
+        "Responsible AI",
+        "Data protection"
+      ]
+    }
+  ],
+  "material_issues": [
+    {
+      "name": "Climate Impact",
+      "category": "Environmental",
+      "importance_to_business": 8,
+      "importance_to_stakeholders": 9,
+      "description": "Carbon footprint of operations and products.",
+      "materiality_score": 0
+    },
+    {
+      "name": "Talent Diversity",
+      "category": "Social",
+      "importance_to_business": 7,
+      "importance_to_stakeholders": 8,
+      "description": "Diversity in workforce and leadership.",
+      "materiality_score": 0
+    },
+    {
+      "name": "Data Security",
+      "category": "Governance",
+      "importance_to_business": 9,
+      "importance_to_stakeholders": 9,
+      "description": "Protection of sensitive customer and business data.",
+      "materiality_score": 0
+    }
+  ],
+  "metrics": [
+    {
+      "name": "Carbon Footprint",
+      "category": "Environmental",
+      "unit": "tCO2e",
+      "current_value": 12000.0,
+      "target_value": 0.0,
+      "data_source": "Energy consumption data"
+    },
+    {
+      "name": "Gender Diversity",
+      "category": "Social",
+      "unit": "% women in leadership",
+      "current_value": 28.0,
+      "target_value": 50.0,
+      "data_source": "HR records"
+    }
+  ],
+  "actions": [],
+  "reports": []
+}
