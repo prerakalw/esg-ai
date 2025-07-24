@@ -65,28 +65,66 @@ The ESG Implementation Agent is a comprehensive multi-agent system that helps or
 
 ## Usage
 
+### Project Structure
+
+```
+esg_implementation/
+├── __init__.py       # Package initialization and exports
+├── __main__.py      # Command-line interface
+├── agents.py        # ESG implementation agents
+├── core.py          # Core functionality and utilities
+├── models.py        # Data models for ESG entities
+├── tasks.py         # Task definitions for each phase
+└── tools.py         # Tools for ESG implementation
+```
+
 ### Basic Usage
 
 ```python
-from esg_implementation_agent import run_esg_implementation
+from esg_implementation import run_esg_implementation
 
 # Run the ESG implementation process for an organization
 result = run_esg_implementation("Your Organization Name")
 ```
 
-### Using Sample Data
+### Using Components
 
 ```python
-from esg_implementation_agent import ESGOrganization
+from esg_implementation import (
+    ESGOrganization,
+    ESGVision,
+    Stakeholder,
+    MaterialIssue,
+    ESGMetric,
+    ESGAction
+)
 
-# Load sample data for testing
+# Load or create an organization
 org = ESGOrganization.load_from_json("examples/greentech_solutions_esg_data.json")
 
-# Examine the loaded data
-print(f"Organization: {org.name}")
-print(f"Number of stakeholders: {len(org.stakeholders)}")
-print(f"Number of material issues: {len(org.material_issues)}")
-```
+# Create a new ESG vision
+vision = ESGVision(
+    description="To be a leader in sustainable business practices",
+    timeframe="2024-2030",
+    objectives=[
+        "Achieve carbon neutrality by 2030",
+        "Increase diversity in leadership by 50%",
+        "Implement comprehensive ESG reporting"
+    ]
+)
+
+# Add stakeholders
+org.stakeholders.append(
+    Stakeholder(
+        name="Investors",
+        category="Financial",
+        interests=["ESG performance", "Risk management"],
+        influence_level=0.9
+    )
+)
+
+# Save updates
+org.save_to_json()
 
 ### Generate Sample Data
 

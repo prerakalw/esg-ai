@@ -1,0 +1,36 @@
+---
+llm:
+  provider: "google"
+  model: "models/gemini-1.5-pro"
+  api_key: "AIzaSyBV9VMKVSXP_kkwNSej3UX85Lt4zDfcHJQ"
+  # Add your Gemini API key here or set GOOGLE_API_KEY environment variable
+  temperature: 0.7
+  top_p: 0.95
+  top_k: 40
+  max_output_tokens: 2048
+  safety_settings:
+    "1": 4  # HARM_CATEGORY_HARASSMENT: BLOCK_MEDIUM_AND_ABOVE
+    "2": 4  # HARM_CATEGORY_HATE_SPEECH: BLOCK_MEDIUM_AND_ABOVE
+    "3": 4  # HARM_CATEGORY_SEXUALLY_EXPLICIT: BLOCK_MEDIUM_AND_ABOVE
+    "4": 4  # HARM_CATEGORY_DANGEROUS_CONTENT: BLOCK_MEDIUM_AND_ABOVE
+
+agents:
+  verbose: true
+  allow_delegation: true
+  memory_window: 5
+
+data_path: "examples"
+output_path: "output"
+
+organization:
+  name: "TechInnovate"  # Default organization name to run the ESG implementation for
+  examples:  # List of available example organizations
+    - "TechInnovate"
+    - "GreenTech Solutions"
+    - "Eco Manufacturing"
+
+logging:
+  enabled: true
+  level: "INFO"
+  format: "%(asctime)s - %(levelname)s - %(message)s"
+  date_format: "%Y-%m-%d %H:%M:%S"
